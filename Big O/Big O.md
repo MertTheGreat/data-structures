@@ -1,3 +1,4 @@
+
 # Data Structures
 This repository is personal notes on data structures that include codes for algorithm examples, following [this course on Udemy](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/) and [this book](https://www.amazon.co.uk/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
 
@@ -63,21 +64,19 @@ We can desceribe this data transfer algorithm runtime as:
 
 At certain point as the size of the file increases the fime for using electronic transfer will surplas the time you spend for cargo transfer.
 
+<img src="https://i.stack.imgur.com/PWc9I.png" alt="Graph1"
+	title="Graph1" width="550" height="400" />
 
-[![Graph 1][1]][1]
+**Most Used Runtimes**
+* O(log N)
+* O(N log N)
+* O(N)
+* O(N2)
+* 0(2N)
 
-  [1]: https://i.stack.imgur.com/PWc9I.png
+You can also have *multiple variables* in your runtime. 
 
-  **Most Used Runtimes**
-  * O(log N)
-  * O(N log N)
-  * O(N)
-  * O(N2)
-  * 0(2N)
-
-  You can also have *multiple variables* in your runtime. 
-  
-  For example, the time to paint a fence that's _w_ meters wide and _h_ meters high could be described as **O(wh)**. If you needed _p_ layers of paint, then you could say that the time is **O(whp)**.
+For example, the time to paint a fence that's _w_ meters wide and _h_ meters high could be described as **O(wh)**. If you needed _p_ layers of paint, then you could say that the time is **O(whp)**.
 
 **Iterating through half a collection is still O(n)**
 
@@ -101,7 +100,8 @@ def findNemo(array):
             print('Found Nemo')
     t1 = time.time()
 ```
-![O(n)](https://i.imgur.com/DVa5e0R.png)
+
+<img src="https://i.imgur.com/DVa5e0R.png" alt="O_n" title="O(n)" width="550" height="400" />
 
 As the number of elements increases, number of operations increase as well; because it loops though the array.
 
@@ -116,7 +116,9 @@ def getOne(array):
 ```
 Every time the algorithm runs it only operate 1 item. So it is _O(1)_
 
-![O(1) Constant Time](https://i.imgur.com/Acyu6hZ.png)
+
+<img src="https://i.imgur.com/Acyu6hZ.png" alt="constant_time"
+	title="O(1) Constant Time" width="550" height="400" />
 
 If we increase the operation:
 ```python
@@ -127,7 +129,8 @@ def getOne(array):
 
 It becomes _O(2)_.
 
-![O(2)](https://i.imgur.com/VilZaXJ.png)
+<img src="https://i.imgur.com/VilZaXJ.png" alt="O(2)"
+	title="O(2)" width="550" height="400" />
 
 If the operation become 3 the notation would be _O(3)_, and so on.
 
