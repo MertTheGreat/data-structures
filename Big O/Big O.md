@@ -1,12 +1,12 @@
 <style>
 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 450px;
-    height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 </style>
+
 # Data Structures
 This repository is personal notes on data structures that include codes for algorithm examples, following [this course on Udemy](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/) and [this book](https://www.amazon.co.uk/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
 
