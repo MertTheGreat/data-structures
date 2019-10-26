@@ -47,6 +47,10 @@ The interface does not give any specific details but how something should be imp
 
 ![Big O Complexity Chart](https://miro.medium.com/max/2928/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg)
 
+<center>
+<img src="https://miro.medium.com/max/2928/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg" width="450" height="300" style="display:block">
+</center>
+
 As it can be seen on the graph **Big O** depends on how many operations and elements does the algorithm hase if the algorithm hase so many operatins its complexity become more horrible.
 
 ## What is a good code
