@@ -1,10 +1,10 @@
 <style>
 img{
-    width: 70%;
-    height: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 450px;
+    height: 300px;
 }
 </style>
 # Data Structures
