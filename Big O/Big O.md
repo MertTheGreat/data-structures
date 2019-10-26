@@ -1,5 +1,5 @@
 <style>
-img{
+img[src*=wide]{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -75,7 +75,7 @@ At certain point as the size of the file increases the fime for using electronic
 
 [![Graph 1][1]][1]
 
-  [1]: https://i.stack.imgur.com/PWc9I.png
+  [1]: https://i.stack.imgur.com/PWc9I.png#wide
 
   **Most Used Runtimes**
   * O(log N)
@@ -110,7 +110,7 @@ def findNemo(array):
             print('Found Nemo')
     t1 = time.time()
 ```
-![O(n)](https://i.imgur.com/DVa5e0R.png)
+![O(n)](https://i.imgur.com/DVa5e0R.png#wide)
 
 
 As the number of elements increases, number of operations increase as well; because it loops though the array.
@@ -126,7 +126,7 @@ def getOne(array):
 ```
 Every time the algorithm runs it only operate 1 item. So it is _O(1)_
 
-![O(1) Constant Time](https://i.imgur.com/Acyu6hZ.png)
+![O(1) Constant Time](https://i.imgur.com/Acyu6hZ.png#wide)
 
 If we increase the operation:
 ```python
@@ -137,7 +137,7 @@ def getOne(array):
 
 It becomes _O(2)_.
 
-![O(2)](https://i.imgur.com/VilZaXJ.png)
+![O(2)](https://i.imgur.com/VilZaXJ.png#wide)
 
 If the operation become 3 the notation would be _O(3)_, and so on.
 
