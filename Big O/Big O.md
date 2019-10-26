@@ -1,12 +1,3 @@
-<style>
-img[src*=wide]{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
-</style>
-
 # Data Structures
 This repository is personal notes on data structures that include codes for algorithm examples, following [this course on Udemy](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/) and [this book](https://www.amazon.co.uk/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
 
@@ -45,13 +36,11 @@ The interface does not give any specific details but how something should be imp
 
 **Big-O** notation is the language that we use for talking about how long an algorithm takes to run.
 
-![Big O Complexity Chart](https://miro.medium.com/max/2928/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg)
-
-<center>
+<p align="center">
 <img src="https://miro.medium.com/max/2928/1*5ZLci3SuR0zM_QlZOADv8Q.jpeg" width="450" height="300" style="display:block">
-</center>
+</p>
 
-As it can be seen on the graph **Big O** depends on how many operations and elements does the algorithm hase if the algorithm hase so many operatins its complexity become more horrible.
+As it can be seen on the graph **Big O** depends on how many operations and elements does the algorithm has if the algorithm has so many operations its complexity become more horrible.
 
 ## What is a good code
 
@@ -67,30 +56,27 @@ As it can be seen on the graph **Big O** depends on how many operations and elem
 
 Let's say that you want to send big data (1TB) to your friend on the other side of the word.
 
-You can eighter send using your internet connection or sent with cargo that flyies to your friend in a day.
+You can either send using your internet connection or sent with cargo that flies to your friend in a day.
 
-We can desceribe this data transfer algorithm runtime as:
+We can describe this data transfer algorithm runtime as:
 
 * *Electronic Transfer:* O(s) where s is the size of the file.
 * *Cargo Transfer:* O(1) regardless of the size of the file.
 
-At certain point as the size of the file increases the fime for using electronic transfer will surplas the time you spend for cargo transfer.
+At certain point as the size of the file increases the time for using electronic transfer will surplus the time you spend for cargo transfer.
 
+<img align="left" src="https://i.stack.imgur.com/PWc9I.png" width="250" height="230" style="display:block">
 
-[![Graph 1][1]][1]
+**Most Used Runtimes**
+* O(log N)
+* O(N log N)
+* O(N)
+* O(N2)
+* 0(2N)
 
-  [1]: https://i.stack.imgur.com/PWc9I.png#wide
+You can also have *multiple variables* in your runtime. 
 
-  **Most Used Runtimes**
-  * O(log N)
-  * O(N log N)
-  * O(N)
-  * O(N2)
-  * 0(2N)
-
-  You can also have *multiple variables* in your runtime. 
-  
-  For example, the time to paint a fence that's _w_ meters wide and _h_ meters high could be described as **O(wh)**. If you needed _p_ layers of paint, then you could say that the time is **O(whp)**.
+For example, the time to paint a fence that's _w_ meters wide and _h_ meters high could be described as **O(wh)**. If you needed _p_ layers of paint, then you could say that the time is **O(whp)**.
 
 **Iterating through half a collection is still O(n)**
 
@@ -114,12 +100,14 @@ def findNemo(array):
             print('Found Nemo')
     t1 = time.time()
 ```
-![O(n)](https://i.imgur.com/DVa5e0R.png#wide)
+
+<img align="left" src="https://i.imgur.com/DVa5e0R.png" width="250" height="200" style="display:block">
+
 
 
 As the number of elements increases, number of operations increase as well; because it loops though the array.
 
-This is called _O(n)_ or _Linear Time_. _n_ means the number of elemnts. If the number of array is 1 it is _O(1)_, if the number of arras is 10 it is _O(10)_. As the number of elements increases the number of operations increases linearly.
+This is called _O(n)_ or _Linear Time_. _n_ means the number of elements. If the number of array is 1 it is _O(1)_, if the number of arras is 10 it is _O(10)_. As the number of elements increases the number of operations increases linearly.
 
 _O(n)_ has a fair complexity as it can be seen above graphs. It is the most common.
 
@@ -130,7 +118,8 @@ def getOne(array):
 ```
 Every time the algorithm runs it only operate 1 item. So it is _O(1)_
 
-![O(1) Constant Time](https://i.imgur.com/Acyu6hZ.png#wide)
+<img align="left" src="https://i.imgur.com/Acyu6hZ.png" width="250" height="200" style="display:block">
+
 
 If we increase the operation:
 ```python
@@ -141,11 +130,14 @@ def getOne(array):
 
 It becomes _O(2)_.
 
-![O(2)](https://i.imgur.com/VilZaXJ.png#wide)
+</br>
+</br>
+
+<img align="left" src="https://i.imgur.com/VilZaXJ.png" width="250" height="200" style="display:block">
 
 If the operation become 3 the notation would be _O(3)_, and so on.
 
-But interms of _scalibility_ these all notations are _Constant Time_ which is _O(1)_.
+But in terms of _scalability_ these all notations are _Constant Time_ which is _O(1)_.
 
 #### Example
 * _Find the BigO notation of the algorithm below:_
@@ -201,7 +193,7 @@ def findNemo(array):
             break
     t1 = time.time()
 ```
-Nemo is the 4th member so the algorithm operate only 4 times but what is the 'nemo' wa the last element, then the algorithm would run 10 times. Therefore we alwas need to calculate the worst case.
+Nemo is the 4th member so the algorithm operate only 4 times but what is the 'nemo' wa the last element, then the algorithm would run 10 times. Therefore we always need to calculate the worst case.
 
 2. Remove Constants
 
