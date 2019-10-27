@@ -139,6 +139,10 @@ If the operation become 3 the notation would be _O(3)_, and so on.
 
 But in terms of _scalability_ these all notations are _Constant Time_ which is _O(1)_.
 
+</br>
+</br>
+</br>
+
 #### Example
 * _Find the BigO notation of the algorithm below:_
 ```python
