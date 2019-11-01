@@ -6,3 +6,4 @@ This repository is personal notes on data structures that include codes for algo
 1. [Big O](https://github.com/MertTheGreat/data-structures-and-algorithms/blob/master/Big%20O/Big%20O.md)
 2. [Examples](https://github.com/MertTheGreat/data-structures-and-algorithms/tree/master/Examples)
 3. [Data Structures](https://github.com/MertTheGreat/data-structures-and-algorithms/blob/master/Data%20Structures/Data%20Structures.md)
+    * [Arrays](https://github.com/MertTheGreat/data-structures-and-algorithms/tree/master/Data%20Structures/Arrays)
