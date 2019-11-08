@@ -8,3 +8,5 @@ This repository is personal notes on data structures that include codes for algo
 3. [Data Structures](https://github.com/MertTheGreat/data-structures-and-algorithms/blob/master/Data%20Structures/Data%20Structures.md)
     * [Arrays](https://github.com/MertTheGreat/data-structures-and-algorithms/tree/master/Data%20Structures/Arrays)
     * [Hash Tables](https://github.com/MertTheGreat/data-structures-and-algorithms/tree/master/Data%20Structures/Hash%20Tables)
+    * [Linked Lists](/Data\ Structures/Linked\ Lists/)
+    
