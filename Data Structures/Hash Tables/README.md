@@ -12,6 +12,8 @@ In other words, **Hash Table** is a data structure that allows us to very fast r
 
 Like arrays, hash tables are initialized to a fixed size and _inserting_, _deleting_, and _reading elements_ within those boundaries can be accomplished in constant time, or O(1).
 
+![Arrays vs Hash Tables](img/ArraysVsHashTables.png)
+
 ## How Does It Work
 
 Just like arrays Hash Tables use indexes but Hash Tables use a function to relate the value to the index. So in Hash Table the is related to the value some how.
