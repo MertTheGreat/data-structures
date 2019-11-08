@@ -3,9 +3,9 @@ This repository is personal notes on data structures that include codes for algo
 
 # INDEX
 
-1. [Big O](https://github.com/mertyertugrul/data-structures-and-algorithms/blob/master/Big%20O/Big%20O.md)
+1. [Big O](https://github.com/mertyertugrul/data-structures-and-algorithms/tree/master/Big%20O)
 2. [Examples](https://github.com/mertyertugrul/data-structures-and-algorithms/tree/master/Examples)
-3. [Data Structures](https://github.com/mertyertugrul/data-structures-and-algorithms/blob/master/Data%20Structures/Data%20Structures.md)
+3. [Data Structures](https://github.com/mertyertugrul/data-structures-and-algorithms/tree/master/Data%20Structures)
     * [Arrays](https://github.com/mertyertugrul/data-structures-and-algorithms/tree/master/Data%20Structures/Arrays)
     * [Hash Tables](https://github.com/mertyertugrul/data-structures-and-algorithms/tree/master/Data%20Structures/Hash%20Tables)
     * [Linked Lists](https://github.com/mertyertugrul/data-structures-and-algorithms/tree/master/Data%20Structures/Linked%20Lists)
