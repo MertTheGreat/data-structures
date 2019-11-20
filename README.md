@@ -1,5 +1,5 @@
 # Data Structures and Algorithms
-This repository is personal notes on data structures that include codes for algorithm examples, following [Master The Codding Interview: Data Structures and Algorithms on Udemy](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/) and [Cracking The Coding Interview by GAYLE LAAKMANN McDowELL](https://www.amazon.co.uk/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
+This repository is personal notes on data structures that include codes for algorithm examples, following [Master The Codding Interview: Data Structures and Algorithms on Udemy](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/) and [Cracking The Coding Interview by Gayle Laakman McDowell](https://www.amazon.co.uk/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
 
 # INDEX
 
